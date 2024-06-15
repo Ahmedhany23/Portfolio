@@ -1,0 +1,23 @@
+.inner {
+  background-color: rgba(34, 34, 34, 0.247);
+
+  .page {
+    background-color: rgb(34, 34, 34);
+  }
+
+  .slide {
+    height: 100vh;
+
+    width: 100%;
+
+    position: fixed;
+
+    left: 0;
+
+    top: 0;
+
+    background-color: rgb(34, 34, 34);
+
+    z-index: 1;
+  }
+}
