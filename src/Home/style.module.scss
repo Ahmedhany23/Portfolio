@@ -1,0 +1,27 @@
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 100px;
+  h1 {
+    span {
+      font-size:clamp(1.5em,2.5em,3em);
+    }
+  }
+ 
+    .link {
+      color: black;
+      cursor: pointer;
+      font-size: 3em;
+      transition: transform .3s;
+      &:hover{
+        scale: 1.2;
+      }
+    }
+ 
+   
+ 
+}

@@ -1,41 +1,33 @@
-import React from 'react'
-import "./styles.scss"
-import Inner from '../../components/inner'
-import Stairs from '../../components/stairs/stairs'
-import Curve from '../../components/curve/curve'
+import React from "react";
+import "./styles.scss";
+import Inner from "../../components/inner";
+import Stairs from "../../components/stairs/stairs";
+import Curve from "../../components/curve/curve";
 export default function About() {
   return (
-    <Curve>
-    <div className='main'>
-    <h1 className="heading">About</h1>
+    <Inner>
+      <div className="main">
+        <div className="container">
+          <img src="Ahmed.jpg" alt="" className="image" />
 
-<div className="section">
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-    imperdiet nibh sit amet velit dignissim, non tempus nisl pellentesque.
-    Praesent sagittis magna sit amet ex blandit, id pharetra lectus
-    feugiat. Praesent sit amet congue ipsum, in ultrices neque. In dapibus
-    in purus vitae dignissim. Quisque molestie ullamcorper elementum. Sed
-    sodales erat augue. Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit. Duis aliquet quis lectus vitae venenatis. Aliquam erat volutpat.
-    Nulla maximus sodales nibh dapibus congue. Integer nec pharetra felis,
-    quis commodo elit. Fusce et aliquet neque. Vivamus leo diam, pharetra
-    ut lorem eu, suscipit egestas ipsum. Aenean mauris ligula, laoreet ut
-    volutpat sit amet, convallis et turpis.
-  </p>
-
-  <p>
-    Quisque molestie ullamcorper elementum. Sed sodales erat augue. Lorem
-    ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet quis
-    lectus vitae venenatis. Aliquam erat volutpat. Nulla maximus sodales
-    nibh dapibus congue. Integer nec pharetra felis, quis commodo elit.
-    Fusce et aliquet neque. Vivamus leo diam, pharetra ut lorem eu,
-    suscipit egestas ipsum. Aenean mauris ligula, laoreet ut volutpat sit
-    amet, convallis et turpis.
-  </p>
-</div>
-    </div>
-   
-  </Curve>
-  )
+          <div className="section">
+            <h1 className="heading lucky">About Me</h1>
+            <p className="prime">
+              Hi there! I'm Ahmed, a front-end developer with a passion for
+              crafting clean code and user-centric experiences. I love working
+              collaboratively to solve problems and build beautiful, responsive
+              websites across all devices. My expertise lies in leveraging
+              React.js and Next.js to create pixel-perfect interfaces. Whether
+              it's a massive responsive build, stunning hover effects, or even
+              RTL Arabic sites, I've got the experience to tackle it. My tech
+              stack is strong, with JavaScript, React.js & Next.js at the core,
+              backed by powerful UI libraries like MUI, Tailwind, and
+              Styled-components, all working seamlessly with the foundation of
+              HTML & CSS. Looking forward to connecting!
+            </p>
+          </div>
+        </div>
+      </div>
+    </Inner>
+  );
 }

@@ -1,21 +1,19 @@
-.heading{
-    text-align: center;
-    color: white;
-}
-p{
-    color: white;
-    max-width: 1400px;
-}
-
-.main{
+.main {
     height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    .section{
-        display: flex;
-        max-width: 1200px;
-        gap: 10px;
+  .container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 30px;
+    img {
+      width: 500px;
+      height: 500px;
     }
+    .section{
+        p.prime{
+            line-height: 30px;
+        }
+    }
+  }
 }

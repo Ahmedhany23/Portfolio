@@ -18,9 +18,9 @@ const NavBar = forwardRef(function Index(props, ref) {
         }}
         className="button"
       >
-        <div className={`burger ${isActive ? "burgerActive" : ""}`}>
+        <motion.div className={`burger ${isActive ? "burgerActive" : ""}`}  initial={{scale:1}} animate={{scale:1.2}}>
           <div ref={ref} className="bounds"></div>
-        </div>
+        </motion.div>
       </div>
       <AnimatePresence mode="wait">
         {isActive && (
